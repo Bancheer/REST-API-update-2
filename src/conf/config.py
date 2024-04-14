@@ -7,9 +7,9 @@ class Settings(BaseSettings):
     DB_URL: str = "postgresql+asyncpg://postgres:148822869@localhost:5432/hw11"
     SECRET_KEY_JWT: str = "1488228666"
     ALGORITHM: str = "HS256"
-    MAIL_USERNAME: EmailStr = "postgres@mail.com"
+    MAIL_USERNAME: EmailStr = "postgres@email.com"
     MAIL_PASSWORD: str = "postgres"
-    MAIL_FROM: str = "postgres"
+    MAIL_FROM: str = "postgres@email.com"
     MAIL_PORT: int = 567234
     MAIL_SERVER: str = "postgres"
     REDIS_DOMAIN: str = 'localhost'
